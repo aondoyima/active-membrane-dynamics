@@ -1,0 +1,52 @@
+#params.txt
+
+#Initial conditions
+initnoise='1e-3'
+psi1bar='0.0'
+psi2bar='0.0'
+
+#System size
+L_list='40.0'
+resolution='25.6'
+
+#Default
+a='-1.0'
+b='1.0'
+chiprime='0.5'
+s0='0.0'
+
+#Chemical properties
+alpha_list='0.8 1.6'
+K_list='1.0'
+chi_list='0.0'
+s1_list='0.2'
+
+#I will mostly be doing s1 = s2 or s1 = -s2.
+#Uncomment the line below if you want to set s2 sepratately and add another
+#nest to the executuon for loop if you want to vary them both
+
+#s2_list='0.2' 
+
+#Surface properties
+sigma_list='1.0'
+kappa_list='2.0'
+zeta_list='3.0'
+
+#Global options: 0 for no, 1 for yes
+vol_conserve=0
+vary_noise=0
+data_save=1
+adapt_step=1
+
+#Plottting options
+mov=1
+kym=1
+kym_amp=1
+struct=1
+
+#Window for time averaging (for e.g. structure factor)
+t1=19000
+t2=20000
+
+#Time from which to start reading data
+t_read=0

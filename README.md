@@ -1,1 +1,1 @@
-# membrane-dynamics
+# Non-reciprocal interactions on a membrane

@@ -22,7 +22,7 @@ where $N_{\psi_1}$, $N_{\psi_2}$, and $N_h$ are nonlinear terms that will be det
 
 ![kym](https://github.com/aondoyima/active-membrane-dynamics/blob/main/example_kymograph.png)
 <p align="middle">
-  <img src="[https://github.com/aondoyima/active-membrane-dynamics/blob/main/example_movie.gif]" width="100" />
+  <img src="https://github.com/aondoyima/active-membrane-dynamics/blob/main/example_movie.gif" width="100" />
 </p>
 
 ## Dependencies and Packages

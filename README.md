@@ -15,6 +15,8 @@ This project simulates the 1D dynamics of a membrane (height $h$) coupled to two
 
 where $N_{\psi_1}$, $N_{\psi_2}$, and $N_h$ are nonlinear terms that will be detailed in the upcoming paper. The parameters $s_1$ and $s_2$ are called spontaneous curvatutures and represent the local curvature induced by an enzyme being attached to the membrane. The linear part of the coupled eqautions is eveloved with a [Crank-Nicolson](https://en.wikipedia.org/wiki/Crank%E2%80%93Nicolson_method) scheme, and the non-linear part is treated with a 2nd order [Adams-Bashforth](https://en.wikipedia.org/wiki/Linear_multistep_method) scheme. 
 
+![kym](https://github.com/aondoyima/active-membrane-dynamics/blob/main/example_kymograph.png)
+
 ## How to use
 - Input parameters in ```params.txt``` and run the simulation using ```bash run_which.sh -script pbc_main.py```. 
 - Plotting can be done with ```bash run_which.sh -script pbc_mov.py```.

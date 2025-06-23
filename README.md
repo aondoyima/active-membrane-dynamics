@@ -21,7 +21,9 @@ where $N_{\psi_1}$, $N_{\psi_2}$, and $N_h$ are nonlinear terms that will be det
 - Various options and parameters can be changed in params.txt and new options can be added by updating the ```get_args()``` function in ```pbc_utils.py```
 
 ![kym](https://github.com/aondoyima/active-membrane-dynamics/blob/main/example_kymograph.png)
-![mov](https://github.com/aondoyima/active-membrane-dynamics/blob/main/example_movie.gif)
+<p align="middle">
+  <img src="[/img1.png](https://github.com/aondoyima/active-membrane-dynamics/blob/main/example_movie.gif)" width="100" />
+</p>
 
 ## Dependencies and Packages
 Outside of the packages in the standard python library, you will need these:

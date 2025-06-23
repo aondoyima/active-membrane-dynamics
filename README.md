@@ -1,5 +1,9 @@
 # Non-reciprocal interactions on a membrane
-This project simulates the 1D dynamics of a membrane (height $h$) coupled to two non-reciprocally interacting enyzmes with concentrations $\psi_1$ and $\psi_2$.
+This project simulates the 1D dynamics of a membrane (height $h$) coupled to two non-reciprocally interacting enyzmes with concentrations $\psi_1$ and $\psi_2$. We use a pseudo-spectral method to solve the equations
+```math
+\partial_t\psi_1 = \partial_x^2\bigg[\tilde{a}_1\psi_1 + (\tilde{\chi} + \alpha)\psi_2 - K\partial_x^2\psi_1 + \kappa s_1\partial_x^2 h\bigg] + N_{\psi_1},
+```
+where $N_{\psi_1}$, $N_{\psi_2}$, and $N_h$ are nonlinear terms that will be detailed in the upcoming paper. The parameters $s_1$ and $s_2$ are called spontaneous curvatutures and represent the local curvature induced by an enzyme being attached to the membrane. 
 
 ## How to use
 - Input parameters in ```params.txt``` and run the simulation using ```bash run_which.sh -script pbc_main.py```. 
